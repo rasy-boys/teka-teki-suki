@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const TekaTekiSUKIApp());
 }
@@ -106,16 +107,7 @@ class HomePage extends StatelessWidget {
                     );
                   },
                 ),
-                
-                _buildCustomButton(
-                  context,
-                  icon: Icons.exit_to_app,
-                  label: 'Keluar',
-                  color: Colors.redAccent,
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
+             
               ],
             ),
           ],
